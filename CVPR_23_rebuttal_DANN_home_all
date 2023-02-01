@@ -1,0 +1,304 @@
+resnet50
+---------------------------------------------------------
+4
+seed:  2020
+DANN
+Art -> Clipart
+./data/txt/office-home/labeled_source_images_Art.txt
+----------------------------------------------------------------
+
+Task: AC, Iter:1000/10000; Accuracy = 39.13%
+
+Task: AC, Iter:2000/10000; Accuracy = 42.91%
+
+Task: AC, Iter:3000/10000; Accuracy = 44.01%
+
+Task: AC, Iter:4000/10000; Accuracy = 43.87%
+
+Task: AC, Iter:5000/10000; Accuracy = 43.87%
+
+Task: AC, Iter:6000/10000; Accuracy = 43.39%
+
+Task: AC, Iter:7000/10000; Accuracy = 43.32%
+
+Task: AC, Iter:8000/10000; Accuracy = 43.00%
+
+Task: AC, Iter:9000/10000; Accuracy = 43.05%
+
+Task: AC, Iter:10000/10000; Accuracy = 42.45%
+
+DANN
+Art -> Product
+./data/txt/office-home/labeled_source_images_Art.txt
+----------------------------------------------------------------
+
+Task: AP, Iter:1000/10000; Accuracy = 56.86%
+
+Task: AP, Iter:2000/10000; Accuracy = 61.55%
+
+Task: AP, Iter:3000/10000; Accuracy = 62.54%
+
+Task: AP, Iter:4000/10000; Accuracy = 61.77%
+
+Task: AP, Iter:5000/10000; Accuracy = 63.35%
+
+Task: AP, Iter:6000/10000; Accuracy = 63.44%
+
+Task: AP, Iter:7000/10000; Accuracy = 62.99%
+
+Task: AP, Iter:8000/10000; Accuracy = 63.64%
+
+Task: AP, Iter:9000/10000; Accuracy = 63.91%
+
+Task: AP, Iter:10000/10000; Accuracy = 63.53%
+
+DANN
+Art -> Real
+./data/txt/office-home/labeled_source_images_Art.txt
+----------------------------------------------------------------
+
+Task: AR, Iter:1000/10000; Accuracy = 68.95%
+
+Task: AR, Iter:2000/10000; Accuracy = 71.45%
+
+Task: AR, Iter:3000/10000; Accuracy = 73.35%
+
+Task: AR, Iter:4000/10000; Accuracy = 73.84%
+
+Task: AR, Iter:5000/10000; Accuracy = 73.88%
+
+Task: AR, Iter:6000/10000; Accuracy = 73.65%
+
+Task: AR, Iter:7000/10000; Accuracy = 73.38%
+
+Task: AR, Iter:8000/10000; Accuracy = 73.35%
+
+Task: AR, Iter:9000/10000; Accuracy = 73.54%
+
+Task: AR, Iter:10000/10000; Accuracy = 73.47%
+
+DANN
+Clipart -> Art
+./data/txt/office-home/labeled_source_images_Clipart.txt
+----------------------------------------------------------------
+
+Task: CA, Iter:1000/10000; Accuracy = 45.49%
+
+Task: CA, Iter:2000/10000; Accuracy = 46.02%
+
+Task: CA, Iter:3000/10000; Accuracy = 48.58%
+
+Task: CA, Iter:4000/10000; Accuracy = 49.16%
+
+Task: CA, Iter:5000/10000; Accuracy = 50.23%
+
+Task: CA, Iter:6000/10000; Accuracy = 50.52%
+
+Task: CA, Iter:7000/10000; Accuracy = 50.93%
+
+Task: CA, Iter:8000/10000; Accuracy = 51.13%
+
+Task: CA, Iter:9000/10000; Accuracy = 50.97%
+
+Task: CA, Iter:10000/10000; Accuracy = 51.38%
+
+DANN
+Clipart -> Product
+./data/txt/office-home/labeled_source_images_Clipart.txt
+----------------------------------------------------------------
+
+Task: CP, Iter:1000/10000; Accuracy = 55.55%
+
+Task: CP, Iter:2000/10000; Accuracy = 58.75%
+
+Task: CP, Iter:3000/10000; Accuracy = 59.79%
+
+Task: CP, Iter:4000/10000; Accuracy = 58.57%
+
+Task: CP, Iter:5000/10000; Accuracy = 59.52%
+
+Task: CP, Iter:6000/10000; Accuracy = 59.38%
+
+Task: CP, Iter:7000/10000; Accuracy = 59.68%
+
+Task: CP, Iter:8000/10000; Accuracy = 60.10%
+
+Task: CP, Iter:9000/10000; Accuracy = 60.78%
+
+Task: CP, Iter:10000/10000; Accuracy = 60.73%
+
+DANN
+Clipart -> Real
+./data/txt/office-home/labeled_source_images_Clipart.txt
+----------------------------------------------------------------
+
+Task: CR, Iter:1000/10000; Accuracy = 57.93%
+
+Task: CR, Iter:2000/10000; Accuracy = 61.03%
+
+Task: CR, Iter:3000/10000; Accuracy = 61.97%
+
+Task: CR, Iter:4000/10000; Accuracy = 62.96%
+
+Task: CR, Iter:5000/10000; Accuracy = 63.21%
+
+Task: CR, Iter:6000/10000; Accuracy = 63.30%
+
+Task: CR, Iter:7000/10000; Accuracy = 63.37%
+
+Task: CR, Iter:8000/10000; Accuracy = 63.35%
+
+Task: CR, Iter:9000/10000; Accuracy = 63.46%
+
+Task: CR, Iter:10000/10000; Accuracy = 63.46%
+
+DANN
+Product -> Art
+./data/txt/office-home/labeled_source_images_Product.txt
+----------------------------------------------------------------
+
+Task: PA, Iter:1000/10000; Accuracy = 48.58%
+
+Task: PA, Iter:2000/10000; Accuracy = 48.99%
+
+Task: PA, Iter:3000/10000; Accuracy = 51.59%
+
+Task: PA, Iter:4000/10000; Accuracy = 52.62%
+
+Task: PA, Iter:5000/10000; Accuracy = 52.49%
+
+Task: PA, Iter:6000/10000; Accuracy = 53.03%
+
+Task: PA, Iter:7000/10000; Accuracy = 52.99%
+
+Task: PA, Iter:8000/10000; Accuracy = 53.19%
+
+Task: PA, Iter:9000/10000; Accuracy = 53.28%
+
+Task: PA, Iter:10000/10000; Accuracy = 53.61%
+
+DANN
+Product -> Clipart
+./data/txt/office-home/labeled_source_images_Product.txt
+----------------------------------------------------------------
+
+Task: PC, Iter:1000/10000; Accuracy = 38.33%
+
+Task: PC, Iter:2000/10000; Accuracy = 39.01%
+
+Task: PC, Iter:3000/10000; Accuracy = 40.71%
+
+Task: PC, Iter:4000/10000; Accuracy = 39.93%
+
+Task: PC, Iter:5000/10000; Accuracy = 40.09%
+
+Task: PC, Iter:6000/10000; Accuracy = 40.11%
+
+Task: PC, Iter:7000/10000; Accuracy = 39.01%
+
+Task: PC, Iter:8000/10000; Accuracy = 37.94%
+
+Task: PC, Iter:9000/10000; Accuracy = 37.04%
+
+Task: PC, Iter:10000/10000; Accuracy = 37.16%
+
+DANN
+Product -> Real
+./data/txt/office-home/labeled_source_images_Product.txt
+----------------------------------------------------------------
+
+Task: PR, Iter:1000/10000; Accuracy = 69.27%
+
+Task: PR, Iter:2000/10000; Accuracy = 71.52%
+
+Task: PR, Iter:3000/10000; Accuracy = 71.95%
+
+Task: PR, Iter:4000/10000; Accuracy = 72.39%
+
+Task: PR, Iter:5000/10000; Accuracy = 72.62%
+
+Task: PR, Iter:6000/10000; Accuracy = 72.69%
+
+Task: PR, Iter:7000/10000; Accuracy = 72.96%
+
+Task: PR, Iter:8000/10000; Accuracy = 73.10%
+
+Task: PR, Iter:9000/10000; Accuracy = 73.10%
+
+Task: PR, Iter:10000/10000; Accuracy = 73.01%
+
+DANN
+Real -> Art
+./data/txt/office-home/labeled_source_images_Real.txt
+----------------------------------------------------------------
+
+Task: RA, Iter:1000/10000; Accuracy = 62.75%
+
+Task: RA, Iter:2000/10000; Accuracy = 64.52%
+
+Task: RA, Iter:3000/10000; Accuracy = 65.39%
+
+Task: RA, Iter:4000/10000; Accuracy = 65.72%
+
+Task: RA, Iter:5000/10000; Accuracy = 64.40%
+
+Task: RA, Iter:6000/10000; Accuracy = 65.43%
+
+Task: RA, Iter:7000/10000; Accuracy = 65.10%
+
+Task: RA, Iter:8000/10000; Accuracy = 64.89%
+
+Task: RA, Iter:9000/10000; Accuracy = 65.39%
+
+Task: RA, Iter:10000/10000; Accuracy = 65.18%
+
+DANN
+Real -> Clipart
+./data/txt/office-home/labeled_source_images_Real.txt
+----------------------------------------------------------------
+
+Task: RC, Iter:1000/10000; Accuracy = 44.35%
+
+Task: RC, Iter:2000/10000; Accuracy = 44.19%
+
+Task: RC, Iter:3000/10000; Accuracy = 44.90%
+
+Task: RC, Iter:4000/10000; Accuracy = 45.18%
+
+Task: RC, Iter:5000/10000; Accuracy = 44.74%
+
+Task: RC, Iter:6000/10000; Accuracy = 44.49%
+
+Task: RC, Iter:7000/10000; Accuracy = 44.05%
+
+Task: RC, Iter:8000/10000; Accuracy = 43.34%
+
+Task: RC, Iter:9000/10000; Accuracy = 43.46%
+
+Task: RC, Iter:10000/10000; Accuracy = 42.61%
+
+DANN
+Real -> Product
+./data/txt/office-home/labeled_source_images_Real.txt
+----------------------------------------------------------------
+
+Task: RP, Iter:1000/10000; Accuracy = 73.60%
+
+Task: RP, Iter:2000/10000; Accuracy = 75.20%
+
+Task: RP, Iter:3000/10000; Accuracy = 75.60%
+
+Task: RP, Iter:4000/10000; Accuracy = 76.64%
+
+Task: RP, Iter:5000/10000; Accuracy = 76.82%
+
+Task: RP, Iter:6000/10000; Accuracy = 76.89%
+
+Task: RP, Iter:7000/10000; Accuracy = 77.02%
+
+Task: RP, Iter:8000/10000; Accuracy = 76.93%
+
+Task: RP, Iter:9000/10000; Accuracy = 77.25%
+
+Task: RP, Iter:10000/10000; Accuracy = 77.07%
+
